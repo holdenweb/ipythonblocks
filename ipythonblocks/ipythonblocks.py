@@ -661,9 +661,11 @@ class BlockGrid(object):
 
         """
         try:
+            # PIL
             import Image
             import ImageDraw
         except ImportError:
+            # pillow
             from PIL import Image, ImageDraw
 
         im = Image.new(
