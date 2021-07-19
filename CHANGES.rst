@@ -1,3 +1,24 @@
+v 1.9
+=====
+
+* Added ``show_color_triple`` function as a convenience for displaying
+  (red, green, blue) triplets without breaking them out into components
+* Added ``Color`` wrapper for colors in the ``colors`` and ``fui_colors``
+  dictionaries to support ``.red``, ``.green``, and ``.blue`` attribute
+  access for the component colors
+
+v 1.8
+=====
+
+* Add ``clear`` function
+* Use ``clear_output(wait=True)`` to avoid flickering in animations
+
+v 1.7
+=====
+
+* Added ``show_image`` and ``save_image`` for embedding an image in the
+  Notebook and saving an image to a file, respectively.
+
 v 1.6
 =====
 
